@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+:root{
+    --main-color:#6ed449;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f1f1;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.chat-section{
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 5px 15px #00000022;
+    width: 400px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.5rem;
+}
+.op-1{
+    opacity: 0.1 !important;
+}
+form{
+    padding: 0.5rem 0;
+}
+.form-label{
+    font-size: 0.8rem;
+    margin-top: 0.5rem !important;
+    display: block;
+}
+.form-input{
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.75rem;
+    border:1px solid #00000022;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-top: 0.5rem;
+}
+.d-flex{
+    display: flex;
+    gap: 1rem;
+}
+.d-flex div{
+    width: 100%;
+}
+.my-2,.mt-2{
+    margin-top: 1rem;
+}
+.my-2,.mb-2{
+    margin-bottom: 1rem;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border:1px solid;
+} 
+.btn-main{
+    background-color: var(--main-color);
+    color: white;
+    border-color: var(--main-color);
+}
+.btn-block{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.btn-lg{
+    padding: 0.75rem 2.5rem;
+}
