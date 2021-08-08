@@ -24,7 +24,7 @@ body{
     box-shadow: 0 5px 15px #00000022;
     width: 400px;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 0.5rem;
 }
 .op-1{
@@ -45,7 +45,10 @@ form{
     border:1px solid #00000022;
     outline: none !important;
     box-shadow: none !important;
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
+}
+.form-input:focus{
+    border-color: var(--main-color);
 }
 .d-flex{
     display: flex;
@@ -66,6 +69,7 @@ form{
     font-size: 1rem;
     border-radius: 0.5rem;
     border:1px solid;
+    text-decoration: none !important;
 } 
 .btn-main{
     background-color: var(--main-color);

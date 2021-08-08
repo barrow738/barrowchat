@@ -8,3 +8,5 @@
     <title>Real time chat application</title>
 </head>
 <body>
+<div class="container">
+    <div class="chat-section">
